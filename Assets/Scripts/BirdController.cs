@@ -12,14 +12,11 @@ public class BirdController : MonoBehaviour
     public float score;
     public TextMeshProUGUI scoreText;
 
-    GameManager gameManager;
+    private GameManager gameManager;
  
     void Start()
     {
-        //if (gameManager == null) return;
-
         rb = GetComponent<Rigidbody2D>();
-
         gameManager = FindObjectOfType<GameManager>();
     }
 

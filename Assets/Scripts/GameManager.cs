@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
         getReady.SetActive(true);
         Time.timeScale = 0;
     }
+
     public void Play()
     {
         birdController.score = 0;
@@ -29,11 +30,10 @@ public class GameManager : MonoBehaviour
 
         getReady.SetActive(false);
         playButton.SetActive(false);
-    
+
 
         Time.timeScale = 1;
         birdController.enabled = true;
-
     }
 
     public void GameOver()
