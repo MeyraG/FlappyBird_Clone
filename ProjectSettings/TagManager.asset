@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ScoreManager
+  - Pipe
+  - Destroyer
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3159627379
+    locked: 0
+  - name: Pipe
+    uniqueID: 496640555
+    locked: 0
+  - name: Ground
+    uniqueID: 335613045
+    locked: 0
+  - name: Objects
+    uniqueID: 3343541115
+    locked: 0
+  - name: Canvas
+    uniqueID: 1998452247
+    locked: 0
