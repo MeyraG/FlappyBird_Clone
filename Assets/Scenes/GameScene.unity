@@ -876,23 +876,6 @@ MonoBehaviour:
   playButton: {fileID: 1903814916}
   getReady: {fileID: 75387044}
   birdController: {fileID: 582011058}
---- !u!1 &1353182965 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1142932257334003138, guid: bed69c320c23cd34781f1ad577949db2, type: 3}
-  m_PrefabInstance: {fileID: 53451561829724075}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1353182968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353182965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d015d6c0a74f7b4aac207e7b5972cca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1627733361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,6 +1259,10 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 133877716}
+    - target: {fileID: 53451562765236632, guid: bed69c320c23cd34781f1ad577949db2, type: 3}
+      propertyPath: jumpInterval
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 53451562765236633, guid: bed69c320c23cd34781f1ad577949db2, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1318,6 +1305,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 53451562765236633, guid: bed69c320c23cd34781f1ad577949db2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342207544600198085, guid: bed69c320c23cd34781f1ad577949db2, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4105189520156690006, guid: bed69c320c23cd34781f1ad577949db2, type: 3}
